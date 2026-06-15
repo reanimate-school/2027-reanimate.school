@@ -1,0 +1,146 @@
+baseURL = 'https://2027.reanimate.school'
+title = 'ReAnimate Summer School'
+
+theme = 'hugo.386'
+
+preserveTaxonomyNames = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+      
+[params]
+    # The name to display as main title in the home page
+    mainpagetitle = "ReAnimate Summer School 2027"
+
+    # The subtitle to display under the title in the home page
+    mainpagesubtitle = "3rd Summer School on Retro Gaming History, Critique, and Development"
+
+    # The description of your website. It will be displayed in the home page
+    mainpagedesc = "A summer school dedicated to retro gaming, which invites both humanities and engineering to provide unique insights on retro gaming, both theoretical and practical, and opportunities for cross-fertilisation among research fields."
+
+    # The name to display in the copyright section in the footer
+    copyrightname = "ReAnimate Summer School"
+
+    # The url to use as link in the copyright name in the footer. Leave empty to use none.
+    copyrighturl = ""
+
+    # Show the "built on Hugo" disclaimer
+    showhugo = true
+
+    # Enables or disables the loading animations. false activates them. Default is false.
+    loadfastload = false
+
+    # Sets the speed for the page loading effect. Default is 1.0.
+    loadspeedfactor = 1.0
+
+    # Enables or disables the second flyby cursor. Default is false.
+    loadonepass = false
+
+[params.copyright]
+    name = ""
+
+    # The url to use as link in the copyright name in the footer. Leave empty to use none.
+    url = ""
+
+    # Text to go before copyright information
+    prefix = ""
+
+    # Text to go between copyright and hugo disclaimer (if enabled)
+    suffix = ""
+
+[params.meta]
+    favicon = true
+
+[menu]
+  # This displays buttons in the navbar to access your contents
+  [[menu.main]]
+    identifier = "about" # An unique identifier for the button
+    name = "About"       # A display name for the button
+    url = "/about/"      # The path to the content. It can lead to a single page (like here)
+    weight = 10          # A number to order the buttons in the navbar
+
+  [[menu.main]]
+    identifier = "objectives"
+    name = "Objectives"
+    url = "/objectives/"
+    weight = 11
+
+  [[menu.main]]
+    identifier = "organisers"
+    name = "Organisers"
+    url = "/organisers/"
+    weight = 12
+
+  [[menu.main]]
+    identifier = "speakers"
+    name = "Speakers"
+    url = "/speakers/"
+    weight = 13
+
+  [[menu.main]]
+    identifier = "program"
+    name = "Program"
+    url = "/program/"
+    weight = 14
+
+  [[menu.main]]
+    identifier = "registration"
+    name = "Registration"
+    url = "/registration/"
+    weight = 15
+
+  [[menu.main]]
+   identifier = "gamejam"
+    name = "Game Jam"
+    url = "/gamejam/"
+    weight = 16
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 17
+
+  # [[menu.main]]
+  #   identifier = "photos"
+  #   name = "Photos"
+  #   url = "/photos/"
+  #   weight = 18
+
+  [[menu.main]]
+    identifier = "2026"
+    name = "2025"
+    url = "https://2026.reanimate.school"
+    weight = 19
+
+[taxonomies]
+    tag = "tags"
+    # category = "categories"
+    # disableKinds = ['taxonomy', 'term']
+
+[privacy]
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
