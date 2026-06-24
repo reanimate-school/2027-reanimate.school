@@ -8,4 +8,4 @@ The goal of the game jam is to learn to design and implement a game within the c
 
 The game jam is highly collaborative, with participants from diverse backgrounds teaming up to create games. From design to implementation, everyone will be able to contribute and learn from others! Mentors from the humanities and engineering will drive the teams, while everyone will have a chance to touch every aspect of the games. A judge with a long experience in the game industry assessed the games of the last day and awarded "advances" to the different teams to flesh out their demos.
 
-See [last's year game jam](https://2026.reanimate.school/gamejam/) for an idea of the amazing realisations made by the teams during the game jam!
+See [last year's game jam](https://2026.reanimate.school/gamejam/) for an idea of the amazing realisations made by the teams during the game jam!
